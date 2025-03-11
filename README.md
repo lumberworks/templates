@@ -2,17 +2,25 @@
 
 This repository contains a collection of fullstack boilerplates for different technologies.
 
-## NextJS
+## Database
 
-- `nextjs-prisma-tailwind`: NextJS, Prisma, TailwindCSS, TypeScript
-- `nextjs-auth-drizzle`: NextJS, PostgreSQL, Drizzle, NextAuth, TailwindCSS, TypeScript
-- `nextjs-skeleton`: NextJS, TypeScript
-- `nextjs-tailwindcss`: NextJS, TailwindCSS, TypeScript
+A script to start a PostgreSQL database is provided in the `docker` directory.
 
-## NestJS
+```bash
+./docker/start-postgres.sh
+```
 
-- `nestjs-reactjs-tailwind`: NestJS, ReactJS, TailwindCSS, TypeScript
+## NextJS (TypeScript)
 
-## ExpressJS
+- `next-postgres-drizzle-tailwind`: NextJS, PostgreSQL, Drizzle, TailwindCSS
+- `next-postgres-prisma-tailwind`: NextJS, PostgreSQL, Prisma, TailwindCSS
+- `next-tailwind`: NextJS, TailwindCSS
+- `next-skeleton`: NextJS
 
-- `expressjs-reactjs-skeleton`: ExpressJS, ReactJS, TypeScript
+## NestJS (TypeScript)
+
+- `nest-react-tailwind`: NestJS, ReactJS, TailwindCSS
+
+## ExpressJS (TypeScript)
+
+- `expressjs-react-skeleton`: ExpressJS, ReactJS
